@@ -132,16 +132,12 @@ header a:hover, a:active {
 
 /*Menu section*/
 div section h3{
-    display: flex;
-    gap: 0.5rem;
     justify-content: center;
-    align-items: center;
 }
 
 .item {
     display: grid;
     grid-template-columns: 4fr 1fr;
-    padding: 0.7rem 0 0.7rem 0;
 }
 
 .price {
