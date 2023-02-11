@@ -132,7 +132,10 @@ header a:hover, a:active {
 
 /*Menu section*/
 div section h3{
+    display: flex;
     justify-content: center;
+    align-items: center;
+    gap: .5rem;
 }
 
 .item {
@@ -152,7 +155,59 @@ div section h3{
 
 /*About section*/
 
+#about {
+    align-items: center;
+}
 
+#about h2 {
+    align-self: flex-start;
+}
+
+.card {
+    background-color: white;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.card img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card p {
+    font-weight: 600;
+}
+
+.cards{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 200px);
+    justify-content: center;
+    gap: 1rem;
+}
+
+.address {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.2rem;
+}
+
+.second-column {
+    grid-column: 2;
+}
+
+.hours-container {
+    display: grid;
+    grid-template-columns: auto max-content;
+    gap: 1rem;
+    align-content: center;
+}
+
+iframe {
+    width: 100%;
+    border: none;
+}
 
 /*Reservation section*/
 input,
