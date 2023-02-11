@@ -93,8 +93,32 @@ header a:hover, a:active {
 }
 
 /*Hero section*/
+.hero-container {
+    height: 30vh;
+    min-height: 350px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/hero.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+.hero {
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    color: var(--white-color);
+    gap: 2rem;
+}
 
-
+.cfa {
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    color: var(--white-color);
+    font-size: var(--fs-h5);
+    font-weight: 600;
+}
 
 /*Content wrapper*/
 
