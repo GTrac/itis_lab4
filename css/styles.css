@@ -121,13 +121,37 @@ header a:hover, a:active {
 }
 
 /*Content wrapper*/
-
-
-
+.content-wrapper {
+    width: 90%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+    padding: 1rem 0 1rem 0;
+}
 
 /*Menu section*/
+div section h3{
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
 
+.item {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    padding: 0.7rem 0 0.7rem 0;
+}
 
+.price {
+    text-align: right;
+}
+
+.description {
+    max-width: 60ch;
+    color: var(--black75);
+}
 
 
 /*About section*/
