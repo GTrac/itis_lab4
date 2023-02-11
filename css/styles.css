@@ -241,12 +241,23 @@ input[type="submit"]:hover {
     background-color: var(--secondary-color);
 }
 
+form {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+}
+
+.span {
+    grid-column: 1/-1;
+}
 
 /*Footer*/
 
 footer {
     background-color: var(--secondary-color);
     color: var(--white-color);
+    padding: 1rem;
+    align-items: center;
     padding: 1rem;
 }
 
@@ -259,7 +270,15 @@ footer ul i {
     font-size: var(--fs-h5);
 }
 
-
+.top {
+    padding: 1em 1.5em;
+    background-color: var(--black50);
+    color: var(--white-color);
+    font-weight: 700;
+    position:fixed;
+    bottom: 0;
+    right:0;
+}
 
 
 
